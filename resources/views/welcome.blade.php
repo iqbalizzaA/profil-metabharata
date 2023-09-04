@@ -209,12 +209,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="card-maps img-fluid" data-aos="zoom-in-up">
-                            <div class="card" style="width: 28rem;">
+                    <div class="col-lg-5">
+                        <div class="card-maps" data-aos="zoom-in-up">
+                            <div class="card">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4738542098507!2d112.67002057383608!3d-7.300538471765726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a806b1ce1%3A0x571f4546e898d79a!2sSurabaya%20State%20University%20-%20Lidah%20Campus!5e0!3m2!1sen!2sid!4v1693440477758!5m2!1sen!2sid"
-                                    width="130%" height="450"></iframe>
+                                    width="500" height="450"></iframe>
                             </div>
                         </div>
                     </div>

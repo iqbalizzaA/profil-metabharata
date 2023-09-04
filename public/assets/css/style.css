@@ -237,8 +237,8 @@ p{
 }
 
 .card-maps{
-	margin-left: 10%;
-	padding-right: 10%;
+	margin-left: 30%;
+
 }
 .card-maps iframe{
 	-ms-border-radius: 20px;
@@ -246,7 +246,6 @@ p{
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
-	background:rgba(255,255,255,0.7);
 }
 
 /* footer */
