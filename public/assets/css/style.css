@@ -236,6 +236,10 @@ p{
 	color:#924224;
 }
 
+.card-maps{
+	margin-left: 10%;
+	padding-right: 10%;
+}
 .card-maps iframe{
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
