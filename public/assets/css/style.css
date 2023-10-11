@@ -22,29 +22,30 @@
 
 /* button login */
 .btn-danger{
-    padding: 10px 42px;
+	background-color: #bd0001;
+	border-radius: 10px;
+	border-color: #bd0001;
+    padding: 10px 46px;
     color: white;
     font-family: 'Averia Serif Libre', cursive;
 
 }
 
 #hero {
-    background-image: url("../images/il-photo-01.png");
+    background-image: url('../images/il-photo-01.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-	width: 100%;
-    height: 650px;
+    height: 600px;
 }
 
 .hero-title{
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 .hero-title h1{
     font-family: 'Averia Serif Libre', cursive;
-    overflow: hidden;
-	font-size: 52px;
+	font-size: 48px;
 	font-weight: 600;
 	-ms-text-shadow:7px 7px 6px rgba(0,0,0,0.25);
 	-o-text-shadow:7px 7px 6px rgba(0,0,0,0.25);
@@ -140,7 +141,6 @@
 }
 
 .card-body h5{
-    margin-top: 15px;
 	font-family: 'Bree Serif', serif;
 	font-size: 16px;
 	color:#D58F3D;
@@ -159,7 +159,7 @@
 h2{
 	overflow: hidden;
 	font-family: Averia Serif Libre;
-	font-size: 32px;
+	font-size: 30px;
 	-ms-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
 	-o-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
 	-webkit-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
@@ -171,7 +171,7 @@ h2{
 h3{
 	overflow: hidden;
 	font-family: Averia Serif Libre;
-	font-size: 30px;
+	font-size: 24px;
 	text-align: left;
 	-ms-text-shadow:3px 3px 2px rgba(0,0,0,0.25);
 	-o-text-shadow:3px 3px 2px rgba(0,0,0,0.25);
@@ -183,19 +183,49 @@ h3{
 
 h4{
 	overflow: hidden;
-	font-family: Bree Serif;
-	font-size: 28px;
-	text-align: left;
-	color:#3E3225;
-}
-p{
-	overflow: hidden;
 	font-family: Averia Serif Libre;
 	font-size: 20px;
 	text-align: left;
 	color:#3E3225;
 }
+
+h5{
+	font-family: Averia Serif Libre;
+	font-size: 18px;
+	color:#3E3225;
+}
+
+p{
+	overflow: hidden;
+	font-family: Averia Serif Libre;
+	font-size: 14px;
+	text-align: left;
+	color:#3E3225;
+}
+
+/* paralax background */
+.section-foto{
+background-attachment: fixed;
+background-position: top;
+background-size: cover;
+height: 400px;
+width: 100%;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
 /* ---------------------informasi paten ------------------------ */
+
+/* berita*/
+#berita{
+	margin-top: 50px;
+}
+
+/* video */
+#video{
+	background-image: url("../images/il-bg-tentang.svg");
+}
 
 /* tentang metabharata */
 #tentang{
@@ -236,154 +266,14 @@ p{
 	color:#924224;
 }
 
-.card-maps{
-	margin-left: 30%;
-
-}
 .card-maps iframe{
 	-ms-border-radius: 20px;
 	-o-border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
+	background:rgba(255,255,255,0.7);
 }
 
 /* footer */
-footer {
-    position: fixed;
-    bottom: 0;
-}
-
-@media (max-height:800px) {
-    footer {
-        position: static;
-    }
-    header {
-        padding-top: 40px;
-    }
-}
-
-.footer-distributed {
-    background-color: #3E3225;
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    padding: 50px 50px 60px 50px;
-    margin-top: 80px;
-}
-
-.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left {
-    width: 35%;
-}
-
-
-.footer-distributed h3 span {
-    color: #EF9344;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links {
-    color: #ffffff;
-    margin: 20px 0 12px;
-}
-
-.footer-distributed .footer-links a {
-    display: inline-block;
-    line-height: 1.8;
-    text-decoration: none;
-    color: inherit;
-}
-
-.footer-distributed .footer-company-name {
-    color: #8f9296;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-/* Footer Center */
-
-.footer-distributed .footer-center {
-    width: 30%;
-}
-
-.footer-distributed .footer-center i {
-    background-color: #D58F3D;
-    color: #ffffff;
-    font-size: 20px;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-}
-
-.footer-distributed .footer-center p {
-    display: inline-block;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-}
-
-/* Footer Right */
-
-.footer-distributed .footer-right {
-    width: 30%;
-}
-
-.footer-distributed .footer-company-about {
-    line-height: 20px;
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: normal;
-    margin: 0;
-}
-
-.footer-distributed .footer-icons {
-    margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color: #D58F3D;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
-.footer-distributed .footer-icons a:hover {
-    background-color: #924224;
-}
-
-.footer-links a:hover {
-    color: #924224;
-}
-
-@media (max-width: 880px) {
-    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-    .footer-distributed .footer-center i {
-        margin-left: 0;
-    }
-}       
+ 
