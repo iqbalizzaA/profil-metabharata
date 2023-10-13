@@ -25,7 +25,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light py-3 fixed-top">
         <div class="container">
-            <a class="navbar-brand" href='#'>
+            <a class="navbar-brand" href='#hero'>
                 <img src="{{ asset('assets/icons/ic-logo.svg')}}" height="55" width="55" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -39,19 +39,22 @@
                         <a class="nav-link active" aria-current="page" href="#hero">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#sekilas">Profil</a>
+                        <a class="nav-link active" href="#sekilas">Sekilas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#galeri">Berita</a>
+                        <a class="nav-link active" href="#video">Galeri</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#tentang">Galeri</a>
+                        <a class="nav-link active" href="#berita">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#tentang">Prestasi</a>
+                        <a class="nav-link active" href="#cara-pembayaran">Cara Bayar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#tentang">Kontak</a>
+                        <a class="nav-link active" href="#tim">Tim</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#kontak">Kontak</a>
                     </li>
                 </ul>
                 <div class="d-flex">
@@ -63,7 +66,6 @@
 
     <!--Hero-->
     <section id="hero" class="px-0">
-        <img src="../" alt="">
         <div class="container text-center text-white">
             <div class="hero-title">
                 <h1>METABHARATA Official</h1>
@@ -153,19 +155,19 @@
                                     width="600" alt="...">
                             </div>
                             <div class="carousel-item" data-bs-interval="2000">
-                                <img src="{{ asset('assets/images/il-babpremium-01.svg') }}" class="d-block w-100"
+                                <img src="{{ asset('assets/images/il-babak-pembelian.svg') }}" class="d-block w-100"
                                     height="300" width="600" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('assets/images/il-babpremium-02.svg') }}" class="d-block w-100"
+                                <img src="{{ asset('assets/images/il-modecerita.svg') }}" class="d-block w-100"
                                     height="300" width="600" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('assets/images/il-babpremium-03.svg') }}" class="d-block w-100"
+                                <img src="{{ asset('assets/images/il-babpremium1.svg') }}" class="d-block w-100"
                                     height="300" width="600" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="{{ asset('assets/images/il-babpremium-04.svg') }}" class="d-block w-100"
+                                <img src="{{ asset('assets/images/il-babpremium2.svg') }}" class="d-block w-100"
                                     height="300" width="600" alt="...">
                             </div>
                         </div>
@@ -249,41 +251,140 @@
         </div>
     </section>
 
-    <!-- tentang -->
-    <section id="tentang" class="py-5">
-        <div class="container py-5">
+    <!-- tata cara pembayaran -->
+    <section id="cara-pembayaran" class="py-5 section-foto parallax">
+        <div class="container">
             <div class="text-center">
-                <div class="tentangMeta">
-                    <h2 class=" fw-bold text-center" data-aos="zoom-in">Tentang Metabharata</h2>
+                <div class="tatacara-pembayaran">
+                    <h2 class=" fw-bold text-center" data-aos="zoom-in">Tata Cara Pembayaran Game Metabharata</h2>
                 </div>
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-5">
+                <div class="row row-cols-1">
+                    <div class="col-lg-4">
                         <div class="card-info">
-                            <div class="p-2" data-aos="zoom-in">
-                                <img src="{{ asset('assets/icons/ic-logo.svg') }}" height="100" width="100" alt="">
-                                <p>Distopia Langit Kurusetra, merupakan game action side-to-side yang mengadaptasikan
-                                    kisah Perang Bharatayudha. Melalui variasi mode pertarungan dan aspek cerita yang
-                                    kuat, game ini dirancang sebagai strategi untuk merevitalisasi kesenian wayang yang
-                                    mulai terdegradasi pada era modernisasi.</p>
+                            <div class="p-1" data-aos="zoom-in">
+                                <img src="{{ asset('assets/images/il-menu-utama.png') }}" height="150" width="220"
+                                    alt="">
+                                <p>1. Untuk pembelian babak Freemium pada aplikasi Metabharata dilakukan pada menu Mode
+                                    Cerita.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="card-maps img-fluid" data-aos="zoom-in-up">
-                            <div class="card" style="width: 28rem;">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.4738542098507!2d112.67002057383608!3d-7.300538471765726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a806b1ce1%3A0x571f4546e898d79a!2sSurabaya%20State%20University%20-%20Lidah%20Campus!5e0!3m2!1sen!2sid!4v1693440477758!5m2!1sen!2sid"
-                                    width="100%" height="450"></iframe>
+                    <div class="col-lg-4">
+                        <div class="card-info">
+                            <div class="p-1" data-aos="zoom-in">
+                                <img src="{{ asset('assets/images/il-modecerita-1.png') }}" height="150" width="220"
+                                    alt="">
+                                <p>2. Pada tampilan fitur mode cerita, terdapat lima babak gratis dan dua babak berbayar
+                                    yakni babak 6 dan 7. Untuk pembelian kedua babak tersebut, dapat dilakukan dengan
+                                    mengklik babak yang ingin di beli (berikon gembok).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-info">
+                            <div class="p-1" data-aos="zoom-in">
+                                <img src="{{ asset('assets/images/il-login-pembayaran.png') }}" height="150" width="220"
+                                    alt="">
+                                <p>3. Setelah mengklik babak yang ingin dibeli, pengguna akan diarahkan ke website
+                                    metabharataofficial.com, pada website ini silahkan login akun yang sudah didaftarkan
+                                    saat pertama memasuki game metabharata.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-info">
+                            <div class="p-1" data-aos="zoom-in">
+                                <img src="{{ asset('assets/images/il-babak-pembelian1.png') }}" height="150" width="250"
+                                    alt="">
+                                <p>4. Ketika pengguna sudah memasuki akunnya, akan tersedia pilihan babak yang ingin
+                                    dibeli, untuk melakukan pembayaran, klik tombol Lihat.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-info">
+                            <div class="p-1" data-aos="zoom-in">
+                                <img src="{{ asset('assets/images/il-data-order.png') }}" height="150" width="220"
+                                    alt="">
+                                <p>5. Setelah mengklik tombol lihat, akan tampil informasi Data Order, lalu klik Bayar
+                                    Sekarang.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-info">
+                            <div class="p-1" data-aos="zoom-in">
+                                <img src="{{ asset('assets/images/il-metode-pembayaran.png') }}" height="150"
+                                    width="220" alt="">
+                                <p>6. Setelah klik Bayar Sekarang, maka akan tampil berbagai metode pembayaran yang
+                                    disediakan Metabharata. Pengguna dapat melakukan pembayaran melalui Gopay atau
+                                    transfer berbagai Bank. Untuk tatacara pembayaran tiap pilihan, terdapat langkah
+                                    langkah yang disedikana untuk mempermudah pengguna melakukan pembayaran dengan
+                                    meklik ikon panah yang mengarah ke bawah.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
     </section>
 
     <!-- footer -->
-    <section id="footer"></section>
+    <footer id="kontak">
+        <div class="main-content">
+            <div class="left box">
+                <h2>About us</h2>
+                <div class="content">
+                    <p>Distopia Langit Kurusetra, merupakan game action side-to-side yang mengadaptasikan kisah Perang
+                        Bharatayudha. Melalui variasi mode pertarungan dan aspek cerita yang kuat, game ini dirancang
+                        sebagai strategi untuk merevitalisasi kesenian wayang yang mulai terdegradasi pada era
+                        modernisasi.</p>
+                    <div class="social">
+                        <a href="https://facebook.com/coding.np"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="https://instagram.com/coding.np"><span class="fab fa-instagram"></span></a>
+                        <a href="https://youtube.com/c/codingnepal"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Address</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <span class="text">Surabaya, Jawa Tmur</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">metabharata.official@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>Contact us</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message *</div>
+                            <textarea rows="2" cols="25" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <center>
+                <span class="credit">Copyright <span class="far fa-copyright"></span> 2023<a
+                        href="https://metabharataofficial.com/"> Metabharata Official. </a> All rights reserved
+                </span>
+            </center>
+        </div>
+    </footer>
 
 
 
