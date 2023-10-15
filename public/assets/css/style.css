@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Bree+Serif & display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 
 /* body{
     font-family: 'Bree Serif', serif;
@@ -11,9 +13,14 @@
     margin-left: 5px;
     margin-right: 5px;
     font-family: 'Bree Serif', serif;
-	font-size: 20px;
+	font-size: 18px;
     font-weight: bold;
 }
+
+/* .nav-item .nav-link-active:hover{
+	background: #3E3225;
+	border-radius: 5px;
+} */
 
 .scroll-nav-active{
 	background-color: white;
@@ -160,11 +167,11 @@ h2{
 	overflow: hidden;
 	font-family: Averia Serif Libre;
 	font-size: 30px;
-	-ms-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	/* -ms-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
 	-o-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
 	-webkit-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
 	-moz-text-shadow:5px 5px 4px rgba(0,0,0,0.25);
-	text-shadow:5px 5px 4px rgba(0,0,0,0.25);
+	text-shadow:5px 5px 4px rgba(0,0,0,0.25); */
 	color:#924224;
 }
 
@@ -218,16 +225,20 @@ align-items: center;
 /* ---------------------informasi paten ------------------------ */
 
 /* berita*/
-#berita{
+
+/* galeri */
+#galeri{
 	margin-top: 50px;
 }
+
+/* Tambahkan media query untuk responsif sesuai dengan kebutuhan Anda */
 
 /* video */
 #video{
 	background-image: url("../images/il-bg-tentang.svg");
 }
 
-/* tentang metabharata */
+/* cara pembayaran */
 #cara-pembayaran{
 	background-image: url("../images/il-bg-tentang1.png");
 	height: 100%;
@@ -235,7 +246,6 @@ align-items: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
 }
 
 .tatacara-pembayaran h2{
@@ -259,12 +269,91 @@ align-items: center;
 	padding-top: 10px;
 }
 
+.card-info:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 .card-info p{
 	overflow: hidden;
 	font-family: Averia Serif Libre;
 	font-size: 14px;
 	color:#924224;
 }
+
+/* tim */
+
+#tim{
+  padding-top: 30px;
+  margin-top: 40px;
+}
+.container-tim
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.container-tim .card-tim
+{
+   width: 250px;
+   height: 300px;
+   margin: 20px;
+   background: #f2f3f7;
+   box-shadow: 0.6em 0.6em 1.2em #d2dce9,
+               -0.5em -0.5em 1em #ffffff;
+   border-radius: 20px;
+}
+.container-tim .card-tim .content
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.container-tim .card-tim .content .imgBx
+{
+   width: 180px;
+   height: 180px;
+   border-radius: 50%;
+   position: relative;
+   overflow: hidden;
+}
+.container-tim .card-tim .content .imgBx img
+{
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.container-tim .card-tim .content .contentBx h4
+{
+   text-align: center;
+   font-size: 16px;
+}
+.container-tim .card-tim .content .contentBx h5
+{
+   color: #6c758f;
+   font-size: 14px;
+   text-align: center;
+}
+.container-tim .card-tim .content .sci
+{
+   margin-top: 5px;
+}
+.container-tim .card-tim .content .sci a
+{
+   text-decoration: none;
+   color: #6c758f;
+   margin: 5px;
+   transition: color 0.4s;
+}
+.container-tim .card-tim .content .sci a:hover
+{
+   color: #924224;
+}
+
 
 /* footer */
 footer{
